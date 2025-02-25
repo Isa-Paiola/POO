@@ -10,9 +10,7 @@ class aluno{
 }
 
 const paiola = new aluno("Paiola", 17)
-
 console.log(paiola.nome)
-
 
 // novo objeto
 const laura = new aluno("Laura", 17)
@@ -31,4 +29,5 @@ const ana = new aluno("Ana", 16)
 console.log(ana.nome)
 console.log(ana.idade)
 ana.feliz();
+
 
