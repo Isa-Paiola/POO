@@ -41,7 +41,7 @@ class Funcionario extends Pessoa{
     }
 }
 
-$duda = new Aluno ("Duda", 17, 10);
+$isa = new Aluno ("Isa", 17, 10);
 $raul = new Professor ("Raul", 30, 10);
 $edivania = new Diretora ("Edivania", 42, 90);
 $gean = new Funcionario ("Gean", 37, 50);
@@ -50,7 +50,7 @@ $lucas = new Aluno ("Lucas", 17, 10);
 $fabio = new Professor ("Fabio", 47, 10);
 
 
-$duda ->apresentar();
+$isa ->apresentar();
 $raul -> apresentar();
 $lucas ->apresentar();
 $gean -> apresentar();
